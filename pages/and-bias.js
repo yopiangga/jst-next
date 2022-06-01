@@ -41,8 +41,6 @@ export default function AndBias() {
           o = 1;
         }
 
-        // console.log(temp);
-
         output.push(o);
         if (o !== target[i]) {
           loop = true;
