@@ -17,6 +17,19 @@ export default function And() {
   let loop = true;
   let epoch = 0;
 
+  function tes(data) {
+    let temp = 0;
+    for (let j = 0; j < 2; j++) {
+      temp = temp + data[j] * w[j];
+    }
+
+    if (temp <= 2) {
+      return 0;
+    } else {
+      return 1;
+    }
+  }
+
   useEffect(() => {
     while (loop !== false && epoch <= 10) {
       epoch++;
@@ -46,6 +59,7 @@ export default function And() {
         }
       }
     }
+    console.log(tes([0, 1]));
   }, []);
 
   console.log(output);

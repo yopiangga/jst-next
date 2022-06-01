@@ -22,6 +22,20 @@ export default function AndBias() {
   let loop = true;
   let epoch = 0;
 
+  function tes(data) {
+    let temp = 0;
+    temp = b * w[0];
+    for (let j = 0; j < 2; j++) {
+      temp = temp + data[j] * w[j + 1];
+    }
+
+    if (temp <= 2) {
+      return 0;
+    } else {
+      return 1;
+    }
+  }
+
   useEffect(() => {
     while (loop !== false && epoch <= 10) {
       epoch++;
@@ -55,8 +69,10 @@ export default function AndBias() {
         }
       }
     }
+
+    console.log(tes([1, 1]));
   }, []);
 
-  console.log(output);
+  //   console.log(output);
   return <h1>And Bias</h1>;
 }
