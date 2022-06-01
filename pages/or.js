@@ -63,5 +63,5 @@ export default function Or() {
   }, []);
 
   console.log(output);
-  return <h1>Or</h1>;
+  return <h1>Perceptron OR</h1>;
 }

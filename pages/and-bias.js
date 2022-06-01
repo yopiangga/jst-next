@@ -74,5 +74,5 @@ export default function AndBias() {
   }, []);
 
   //   console.log(output);
-  return <h1>And Bias</h1>;
+  return <h1>Perceptron AND BIAS</h1>;
 }

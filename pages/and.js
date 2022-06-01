@@ -63,5 +63,5 @@ export default function And() {
   }, []);
 
   console.log(output);
-  return <h1>And</h1>;
+  return <h1>Perceptron AND</h1>;
 }

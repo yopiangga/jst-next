@@ -164,5 +164,5 @@ export default function Xor() {
     console.log(tesXOR([0, 0]));
   }, []);
 
-  return <h1>Xor</h1>;
+  return <h1>Perceptron XOR</h1>;
 }
