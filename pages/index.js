@@ -31,7 +31,10 @@ export default function Home() {
     <div className="w-full min-h-screen flex items-center justify-center">
       <Head>
         <title>JST | Praktikum Kecerdasan Komputasional</title>
-        <meta description="Perceptron AND, AND NOT, OR, XOR | Alfian Prisma Yopiangga" />
+        <meta
+          name="description"
+          content="Perceptron AND, AND NOT, OR, XOR | Alfian Prisma Yopiangga"
+        />
       </Head>
       <div className="max-w-7xl w-full lg:px-0 px-8 lg:py-0 py-20">
         <div className="lg:flex items-center justify-between">

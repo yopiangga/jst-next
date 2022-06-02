@@ -94,7 +94,10 @@ export default function AndBias() {
     <div className="bg-white dark:bg-gray-900">
       <Head>
         <title>Perceptron AND NOT | Praktikum Kecerdasan Komputasional</title>
-        <meta description="Perceptron AND, AND NOT, OR, XOR | Alfian Prisma Yopiangga" />
+        <meta
+          name="description"
+          content="Perceptron AND, AND NOT, OR, XOR | Alfian Prisma Yopiangga"
+        />
       </Head>
       <div className="flex justify-center h-screen">
         <div className="hidden bg-cover lg:block lg:w-2/3">
